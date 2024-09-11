@@ -40,5 +40,6 @@
   </languages>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <documents>Document.РеализацияТоваровУслуг</documents>
 </mdclass:Configuration>

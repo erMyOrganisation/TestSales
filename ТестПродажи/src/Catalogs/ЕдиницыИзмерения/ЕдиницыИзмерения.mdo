@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ab9c671-3b1f-4e42-967d-37d340aaff44">
+  <producedTypes>
+    <objectType typeId="08a8d084-1943-4135-bca6-f37c6bbaf489" valueTypeId="677a2eed-bf52-4d35-afe2-6873f9ff119f"/>
+    <refType typeId="957ffde3-b83d-49b4-9102-819b4df6e2b8" valueTypeId="ceaa50b3-1406-4afa-abdd-8696cc2abc90"/>
+    <selectionType typeId="55723ee5-3d97-4310-b5e3-092807bed7de" valueTypeId="c72e4dd8-b942-4668-9791-7fbf18e0ece6"/>
+    <listType typeId="0c6e6fc0-ae1d-4a55-af98-92ffc1c32d80" valueTypeId="8adcab05-5ab2-4dba-b9b8-88b1c9abe3a0"/>
+    <managerType typeId="05be4ecf-0663-45eb-8d14-30ca436679a8" valueTypeId="609a6766-7060-4692-bc3f-5459fb2c82a0"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
