@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="966fb6f1-58ac-479c-bae4-5629111560fa">
+  <producedTypes>
+    <objectType typeId="38eddade-1e2b-4f7d-b700-f3cd1da055cf" valueTypeId="96b20df7-c208-420f-a28b-9a24eb9296e3"/>
+    <refType typeId="212738e7-a8c2-4213-8370-f03cba37f6d5" valueTypeId="656be1dd-f19e-4368-bd33-f9a12ad33521"/>
+    <selectionType typeId="85aba6cd-9b81-45f4-93f6-ef36b8e4be4e" valueTypeId="ea3c5d46-5485-4786-b860-0ddc8593ba54"/>
+    <listType typeId="0ef5af17-f083-4a6f-8046-42c246dea84e" valueTypeId="62ba9d67-f530-4b8f-a593-3daa08e2748d"/>
+    <managerType typeId="6178d185-6fff-4e95-9f7b-df827ecc896a" valueTypeId="14d55cd1-d997-40d2-a647-71318976d87e"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="be4e04eb-a8c3-4b11-afe9-b0b3684b3df7">
+    <name>ЮридическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридическое лицо</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
